@@ -8,7 +8,7 @@ pipeline {
 		}
 	}
     }
-	  stage('Building image') {
+	  stage('Building Image') {
 		steps {
 		  sh  'docker build -t keith/keithserver2 .'
 		   }
